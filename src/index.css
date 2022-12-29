@@ -34,9 +34,24 @@ a {
   color: white !important;
 }
 
+.bg {
+  height: 95vh !important;
+  background-color: #000 !important;
+}
+
 .react-player {
   height: 77vh !important;
   width: 100% !important;
+}
+
+.zIndex {
+  z-index: 1 !important;
+}
+
+.nav-bar {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
 }
 
 .search-bar{
@@ -66,12 +81,14 @@ a {
   .category-btn{
     margin: 10px;
   }
+
 }
 
 @media screen and (max-width:800px){
   .copyright{
     display:none !important;
   }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -85,4 +102,10 @@ a {
   .search-bar{
     width:200px;
   }
+
+  .video-container {
+    max-width: 400px !important;
+  }
+
+  
 }
